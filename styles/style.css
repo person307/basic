@@ -1,0 +1,328 @@
+ .main{
+            text-align: center;
+        }
+
+        
+        .poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* font yg ke dua */
+
+.nata-sans-thin {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.nata-sans-extralight {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.nata-sans-light {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nata-sans-regular {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nata-sans-medium {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nata-sans-semibold {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nata-sans-bold {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nata-sans-extrabold {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.nata-sans-black {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.tombol{
+    text-align: center;
+
+}
+
+  /* ===== Reset dan Font ===== */
+* {
+    margin: 0; /* Hilangin jarak default semua elemen */
+    padding: 0; /* Hilangin padding default semua elemen */
+    box-sizing: border-box; /* Hitung width termasuk padding & border */
+    font-family: sans-serif; /* Font default sans-serif */
+}
+
+/* ===== Body ===== */
+body {
+    background-color: #f8f9fa; /* Warna latar belakang abu-abu muda */
+    color: #333; /* Warna teks utama */
+    line-height: 1.6; /* Tinggi baris agar teks enak dibaca */
+}
+
+/* ===== Header ===== */
+header {
+    background: #003cff; /* Warna biru solid */
+    color: white; /* Teks warna putih */
+    text-align: center; /* Teks di tengah */
+    padding: 2rem 1rem; /* Ruang dalam atas & bawah 2rem, kiri & kanan 1rem */
+}
+
+header h1 {
+    font-size: 2rem; /* Ukuran judul */
+    font-weight: bold; /* Teks tebal */
+}
+
+header p {
+    font-size: 1rem; /* Ukuran teks deskripsi */
+}
+
+header img {
+    border-radius: 50%; /* Bikin gambar jadi lingkaran */
+    border: 3px solid white; /* Border putih di sekitar foto */
+    width: 120px; /* Lebar foto */
+    height: 120px; /* Tinggi foto */
+    object-fit: cover; /* Crop gambar supaya pas */
+}
+
+/* ===== Bagian Utama ===== */
+section {
+    max-width: 900px; /* Lebar maksimum konten */
+    margin: 2rem auto; /* Tengah secara horizontal + jarak atas bawah */
+    padding: 0 1rem; /* Padding kiri kanan */
+}
+
+h2 {
+    font-size: 1.5rem; /* Ukuran subjudul */
+    margin-bottom: 1rem; /* Jarak bawah */
+}
+
+p {
+    margin-bottom: 1rem; /* Jarak bawah paragraf */
+    font-size: 1rem; /* Ukuran teks paragraf */
+}
+
+/* ===== Gallery ===== */
+.gallery {
+    display: grid; /* Menggunakan grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Kolom fleksibel */
+    gap: 1rem; /* Jarak antar item */
+}
+
+figure {
+    background: white; /* Latar belakang putih */
+    border: 1px solid #ddd; /* Border abu muda */
+    border-radius: 5px; /* Sudut membulat */
+}
+
+figure img {
+    width: 100%; /* Lebar penuh */
+    height: 180px; /* Tinggi tetap */
+    object-fit: cover; /* Potong gambar biar pas */
+}
+
+figcaption {
+    padding: 0.5rem; /* Ruang dalam */
+    text-align: center; /* Teks di tengah */
+}
+
+/* ===== Formulir ===== */
+form {
+    max-width: 500px; /* Lebar maksimum form */
+    margin: 2rem auto; /* Tengah + jarak vertikal */
+    background: white; /* Latar belakang putih */
+    padding: 1rem; /* Ruang dalam */
+    border-radius: 5px; /* Sudut membulat */
+    border: 1px solid #ddd; /* Border abu muda */
+}
+
+label {
+    font-weight: bold; /* Label tebal */
+}
+
+input, textarea {
+    width: 100%; /* Lebar penuh */
+    padding: 0.6rem; /* Ruang dalam */
+    margin-bottom: 1rem; /* Jarak bawah antar input */
+    border: 1px solid #ccc; /* Border abu */
+    border-radius: 4px; /* Sudut membulat */
+}
+
+button {
+    background: #003cff; /* Warna biru */
+    color: white; /* Teks putih */
+    border: none; /* Tanpa border */
+    padding: 0.6rem 1.5rem; /* Ruang dalam tombol */
+    border-radius: 4px; /* Sudut membulat */
+    cursor: pointer; /* Kursor jadi tangan saat hover */
+}
+
+button:hover {
+    background: #002bbd; /* Biru lebih gelap saat hover */
+}
+
+/* ===== Tabel ===== */
+table {
+    width: 100%; /* Lebar penuh */
+    border-collapse: collapse; /* Hilangin jarak antar border */
+    margin-top: 1rem; /* Jarak atas */
+    background: white; /* Latar belakang putih */
+    border: 1px solid #ddd; /* Border abu muda */
+}
+
+th, td {
+    padding: 0.8rem; /* Ruang dalam sel */
+    border: 1px solid #ddd; /* Border abu */
+    text-align: left; /* Teks rata kiri */
+}
+
+th {
+    background: #003cff; /* Latar belakang biru */
+    color: white; /* Teks putih */
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #333; /* Latar belakang abu gelap */
+    color: white; /* Teks putih */
+    text-align: center; /* Teks di tengah */
+    padding: 1rem; /* Ruang dalam */
+    margin-top: 2rem; /* Jarak atas */
+}
